@@ -14,7 +14,8 @@ import org.junit.runner.RunWith;
         glue = "stepDefinition",
         plugin= {"pretty",
                 "html:target/site/cucumber-html",
-                "json:JsonReport/cucumber1.json"}
+               // "json:JsonReport/cucumber1.json"
+        "json:target/cucumber.json"}
        // tags= {"@Google"}
       //  tags= {"@Regression"}
 )
